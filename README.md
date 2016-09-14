@@ -34,8 +34,7 @@ Q2-pro : "List the script inputs that are upstream of a given data product D".
         bash yw_prospective_lineage.sh strain_L1_filt > graph/yw_prospective_lineage_strain_L1_filt.gv
 
          
-        
-Q1-pro : Render everything upstream of a given data product D”, where D can be any one (output or intermediate) data element of the YW model of the script:
+
 
 
         dot -Tpdf yw_prospective_lineage_filtered_white_noise_data.gv -o yw_prospective_lineage_filtered_white_noise_data.pdf
