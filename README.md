@@ -30,7 +30,6 @@ Q2-pro : "List the script inputs that are upstream of a given data product D".
 
         bash yw_prospective_lineage.sh whitened_bandpass_wavefile  > graph/yw_prospective_lineage.gv
 
-Thanks, cheers,
 
 I have an error when running the query:
 
