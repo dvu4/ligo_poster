@@ -25,16 +25,39 @@ Run LIGO ([code](https://github.com/minrk/ligo-binder "GW150914_tutorial_uri.py"
 
 Q2-pro : "List the script inputs that are upstream of a given data product D".
 
-        bash yw_prospective_lineage.sh filtered_white_noise_data > graph/yw_prospective_lineage.gv
+        bash yw_prospective_lineage.sh filtered_white_noise_data > graph/yw_prospective_lineage_filtered_white_noise_data.gv
+        
+        bash yw_prospective_lineage.sh shifted_wavefile > graph/yw_prospective_lineage_shifted_wavefile.gv
+        
+        bash yw_prospective_lineage.sh whitened_bandpass_wavefile > graph/yw_prospective_lineage_whitened_bandpass_wavefile.gv
+        
+        
+         
         
 Q1-pro : Render everything upstream of a given data product D”, where D can be any one (output or intermediate) data element of the YW model of the script:
 
 
-        dot -Tpdf yw_prospective_lineage.gv -o yw_prospective_lineage.pdf
+        dot -Tpdf yw_prospective_lineage_filtered_white_noise_data.gv -o yw_prospective_lineage_filtered_white_noise_data.pdf
+        dot -Tpng yw_prospective_lineage_filtered_white_noise_data.gv -o yw_prospective_lineage_filtered_white_noise_data.png
         
-        dot -Tpng yw_prospective_lineage.gv -o yw_prospective_lineage.png
+        ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_filtered_white_noise_data.png)        
+        
+        
+        dot -Tpdf yw_prospective_lineage_shifted_wavefile.gv -o yw_prospective_lineage_shifted_wavefile.pdf
+        dot -Tpng yw_prospective_lineage_shifted_wavefile.gv -o yw_prospective_lineage_shifted_wavefile.png
+        
+        ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_shifted_wavefile.png)
+        
+        
+        dot -Tpdf yw_prospective_lineage_whitened_bandpass_wavefile.gv -o yw_prospective_lineage_whitened_bandpass_wavefile.pdf
+        dot -Tpng yw_prospective_lineage_whitened_bandpass_wavefile.gv -o yw_prospective_lineage_whitened_bandpass_wavefile.png
+        
+        ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_whitened_bandpass_wavefile.png)
 
 ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_strain_L1_filt.png)
+
+
+
 
 ### 4. List Query
 
