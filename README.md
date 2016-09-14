@@ -20,3 +20,26 @@ Run LIGO ([code](https://github.com/minrk/ligo-binder "GW150914_tutorial_uri.py"
 
 
 
+### 3. Graph Query
+
+Q1-pro : Render everything upstream of a given data product D”, where D can be any one (output or intermediate) data element of the YW model of the script:
+
+
+
+Q2-pro : "List the script inputs that are upstream of a given data product D".
+
+
+I have an error when running the query:
+
+
+  Users/ducvu/xsb-3.6/config/i386-apple-darwin15.6.0/bin/xsb:
+       file doesn't exist or is not executable
+
+  XSB might not have have been compiled for the following machine configuration:
+              i386-apple-darwin15.6.0
+  ***This installation seems to have the following configurations available: i386-apple-darwin15.5.0
+  ***configuration list end
+
+  One other frequent problem: you might be over your disk quota, and your XSB executable might have been deleted by the system immediately after it was created.
+
+  Please contact your system administrator, if you can't rebuild XSB.
