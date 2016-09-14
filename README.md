@@ -22,13 +22,12 @@ Run LIGO ([code](https://github.com/minrk/ligo-binder "GW150914_tutorial_uri.py"
 
 ### 3. Graph Query
 
-Q1-pro : Render everything upstream of a given data product D”, where D can be any one (output or intermediate) data element of the YW model of the script:
-
-
-
 Q2-pro : "List the script inputs that are upstream of a given data product D".
 
         bash yw_prospective_lineage.sh whitened_bandpass_wavefile  > graph/yw_prospective_lineage.gv
+        
+Q1-pro : Render everything upstream of a given data product D”, where D can be any one (output or intermediate) data element of the YW model of the script:
+
 
         dot -Tpdf yw_prospective_lineage.gv -o yw_prospective_lineage.pdf
         
