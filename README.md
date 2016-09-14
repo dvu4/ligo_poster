@@ -31,18 +31,7 @@ Q2-pro : "List the script inputs that are upstream of a given data product D".
         bash yw_prospective_lineage.sh whitened_bandpass_wavefile  > graph/yw_prospective_lineage.gv
 
 
-I have an error when running the query:
 
-
-    Users/ducvu/xsb-3.6/config/i386-apple-darwin15.6.0/bin/xsb: file doesn't exist or is not executable
-
-    XSB might not have have been compiled for the following machine configuration: i386-apple-darwin15.6.0
-    ***This installation seems to have the following configurations available: i386-apple-darwin15.5.0
-    ***configuration list end
-
-    One other frequent problem: you might be over your disk quota, and your XSB executable might have been deleted by the system immediately after it was created.
-
-    Please contact your system administrator, if you can't rebuild XSB.
 
 
 
