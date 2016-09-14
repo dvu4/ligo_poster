@@ -40,19 +40,19 @@ Q1-pro : Render everything upstream of a given data product D”, where D can be
         dot -Tpdf yw_prospective_lineage_filtered_white_noise_data.gv -o yw_prospective_lineage_filtered_white_noise_data.pdf
         dot -Tpng yw_prospective_lineage_filtered_white_noise_data.gv -o yw_prospective_lineage_filtered_white_noise_data.png
         
-        ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_filtered_white_noise_data.png)        
+![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_filtered_white_noise_data.png)        
         
         
         dot -Tpdf yw_prospective_lineage_shifted_wavefile.gv -o yw_prospective_lineage_shifted_wavefile.pdf
         dot -Tpng yw_prospective_lineage_shifted_wavefile.gv -o yw_prospective_lineage_shifted_wavefile.png
         
-        ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_shifted_wavefile.png)
+![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_shifted_wavefile.png)
         
         
         dot -Tpdf yw_prospective_lineage_whitened_bandpass_wavefile.gv -o yw_prospective_lineage_whitened_bandpass_wavefile.pdf
         dot -Tpng yw_prospective_lineage_whitened_bandpass_wavefile.gv -o yw_prospective_lineage_whitened_bandpass_wavefile.png
         
-        ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_whitened_bandpass_wavefile.png)
+![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_whitened_bandpass_wavefile.png)
 
 ![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_strain_L1_filt.png)
 
