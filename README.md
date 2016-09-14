@@ -30,8 +30,9 @@ Q2-pro : "List the script inputs that are upstream of a given data product D".
 
         bash yw_prospective_lineage.sh whitened_bandpass_wavefile  > graph/yw_prospective_lineage.gv
 
-
-
+        dot -Tpdf yw_prospective_lineage.gv -o yw_prospective_lineage.pdf
+        
+        dot -Tpng yw_prospective_lineage.gv -o yw_prospective_lineage.png
 
 
 
