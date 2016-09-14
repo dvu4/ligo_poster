@@ -33,7 +33,7 @@ Q1-pro : Render everything upstream of a given data product D”, where D can be
         
         dot -Tpng yw_prospective_lineage.gv -o yw_prospective_lineage.png
 
-
+![example](https://raw.githubusercontent.com/idaks/ligo/master/GW150914_tutorial_uri.png)
 
 ### 4. List Query
 
