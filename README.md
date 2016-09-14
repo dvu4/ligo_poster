@@ -14,7 +14,7 @@ Some ([tutorials](https://losc.ligo.org/tutorials/ "GW150914_tutorial_uri.py")) 
 
 Run LIGO ([code](https://github.com/minrk/ligo-binder "GW150914_tutorial_uri.py")) on binder.
 
-![example](https://raw.githubusercontent.com/idaks/ligo/master/GW150914_tutorial_uri.png)
+![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_strain_L1_filt.png)
 
 
 
