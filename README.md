@@ -14,7 +14,8 @@ Some ([tutorials](https://losc.ligo.org/tutorials/ "GW150914_tutorial_uri.py")) 
 
 Run LIGO ([code](https://github.com/minrk/ligo-binder "GW150914_tutorial_uri.py")) on binder.
 
-![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_strain_L1_filt.png)
+![example](https://raw.githubusercontent.com/idaks/ligo/master/GW150914_tutorial_uri.png)
+
 
 
 
@@ -33,7 +34,7 @@ Q1-pro : Render everything upstream of a given data product D”, where D can be
         
         dot -Tpng yw_prospective_lineage.gv -o yw_prospective_lineage.png
 
-![example](https://raw.githubusercontent.com/idaks/ligo/master/GW150914_tutorial_uri.png)
+![example](https://raw.githubusercontent.com/dvu4/ligo_poster/master/yw_prospective_lineage_strain_L1_filt.png)
 
 ### 4. List Query
 
